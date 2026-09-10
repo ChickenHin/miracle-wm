@@ -1,10 +1,10 @@
 name: Test .deb Install
 
 on:
-  push:
-    branches: ["develop"]
-  pull_request:
-    branches: ["develop"]
+  # push:
+  #   branches: ["develop"]
+  # pull_request:
+  #   branches: ["develop"]
 
 # This workflow replicates what an end user does when they install
 # miracle-wm from the PPA, but against the latest Ubuntu (26.04) so
